@@ -2,7 +2,11 @@
 
 def solve():
 # Ниже пишите решение задачи
-    
+    S = int(input())
+    petya = S//6
+    katya = 4*petya
+    sergey = petya
+    print(petya,katya,sergey)
 
     
 # Код ниже не трогать! он нужен для тестов

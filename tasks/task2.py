@@ -2,6 +2,9 @@
 
 def solve():
 # Ниже пишите решение задачи
+    X,Y,Z = map(int,input().split())
+    total = X*3+Y*5+Z*12
+    print(total)
 
    
 
